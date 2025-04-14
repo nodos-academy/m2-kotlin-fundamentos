@@ -1,5 +1,5 @@
-// Algoritmo que solicita la edad de una persona y determina si es mayor de edad.
-// Imprime un mensaje indicando si tiene 18 años o más, o si no los tiene.
+//Programa que solicita la edad de una persona y determina si es mayor de edad.
+//Imprime un mensaje indicando si tiene 18 años o más, o si no los tiene.
 
 fun main() {
     println("Indique su edad: ")
