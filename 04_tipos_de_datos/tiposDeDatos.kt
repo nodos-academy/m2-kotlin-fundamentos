@@ -1,11 +1,5 @@
 // Programa que explica y ejemplifica los tipos de datos más comunes en Kotlin.
 
-// Requerimiento (historia de usuario):
-// Como: estudiante de programación principiante
-// Quiero: conocer los tipos de datos básicos que existen en Kotlin
-// Para: aprender a declarar variables correctamente y usarlas según el tipo de información que quiero almacenar
-
-
 fun main() {
     println("Hola, soy un programa que te ayuda a identificar los tipos de datos más comunes que de Kotlin\n")
     
