@@ -46,6 +46,4 @@ fun main() {
     println("Almacena el dato: $booleano\n")
     
     
-    println("\nExisten otros tipos que son menos comunes, por ejemplo, Long, Short, Byte, Unsigned, etc.")
-
 }
