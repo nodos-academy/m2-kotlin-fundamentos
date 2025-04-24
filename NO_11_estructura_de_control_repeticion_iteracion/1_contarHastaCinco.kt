@@ -7,7 +7,8 @@
 // Para: comprender el funcionamiento de las estructuras repetitivas
 
 fun main() {
-    var variable = 0
+    var variable = 0// Algoritmo que utiliza un ciclo mientras para mostrar los valores de una variable
+
     println("Valor inicial de la variable: $variable\n")
 
     while (variable < 5) {
