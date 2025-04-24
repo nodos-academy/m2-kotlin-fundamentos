@@ -10,7 +10,7 @@ fun main() {
         println("\nEl número es positivo")
     }
 
-    if (num % 2 == 0) {
+    if (num % 2 == 0.0) {
         println("\nEl número es par")
     }
 
