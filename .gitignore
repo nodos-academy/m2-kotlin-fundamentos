@@ -16,3 +16,9 @@ Thumbs.db
 # Archivos de logs o temporales
 *.log
 *.tmp
+
+# Archivos y carpetas de IntelliJ IDEA que deben ignorarse
+.idea/
+*.iml
+*.iws
+*.ipr
