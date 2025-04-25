@@ -1,26 +1,23 @@
-//Programa que declara variables enteras relacionadas con el precio de una compra en línea, y aplica operaciones de asignación (-=, +=, *=, /=, %=)
-//para simular descuentos, adición de productos, promociones y formas de pago. Cada operación actualiza el valor total y muestra el resultado en consola.
-
+// Programa que simula una compra en línea aplicando operaciones de asignación compuesta (+=, -=, /=, %=)
+// para mostrar cómo varía el total según descuentos, productos adicionales, división del pago y cálculo de cambio.
+// Cada operación modifica el valor del total y muestra el resultado en consola.
 
 fun main() {
 
-    var total = 100      // Precio base
-    val descuento = 15   // Descuento en unidades monetarias
-    val extra = 30       // Agregado por un producto adicional
+    println("Ingrese el total de la compra:")
+    var total: Double = readLine().toString().toDouble()  // Precio base (var)
+    val descuento: Double = 5.0   // Cantidad a descontar en unidades monetarias
+    val extra: Double = 30.0       // Agregado por un producto adicional
 
     println("Precio inicial: $total\n")
 
-    // Aplicar descuento
+    // Descontar por cliente frecuente
     total -= descuento   // total = total - descuento
-    println("Después de aplicar descuento de $descuento: $total\n")
+    println("Después de descontar: $descuento, ud. pagará: $total\n")
 
     // Agregar otro producto
     total += extra       // total = total + extra
     println("Después de agregar otro producto de $extra: $total\n")
-
-    // Duplicar total por promoción de 2x1
-    total *= 2           // total = total * 2
-    println("Después de promoción 2x1 (x2): $total\n")
 
     // Dividir total entre 2 si se paga a medias con alguien
     total /= 2           // total = total / 2
@@ -28,5 +25,6 @@ fun main() {
 
     // Cálculo del resto si pagás con billetes de 7 unidades
     total %= 7           // total = total % 7
-    println("Resto si pago con billetes de 7: $total\n")
+    println("Resto si una persona paga con billetes de 7: $total\n")
+    //no calcula el cambio, sino el resto de lo que el cliente tiene que pagar en monedas
 }

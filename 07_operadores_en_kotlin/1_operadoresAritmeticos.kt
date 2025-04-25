@@ -1,10 +1,13 @@
-// Programa que declara dos variables enteras y realiza operaciones matemáticas básicas:
+// Programa que solicita dos variables Double y realiza operaciones matemáticas básicas:
 // suma, resta, multiplicación, división y módulo. Imprime los resultados en consola usando distintas formas de salida.
 
 fun main() {
 
-    val a = 10
-    val b = 3
+    println("Ingresa el primer número decimal: ")
+    val a = readLine().toString().toDouble()
+
+    println("Ingresa el egundo número decimal: ")
+    val b = readLine().toString().toDouble()
 	
     print("Suma: ")
     println(a + b)

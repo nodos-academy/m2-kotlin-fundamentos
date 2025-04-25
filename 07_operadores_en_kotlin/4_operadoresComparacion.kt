@@ -2,10 +2,13 @@
 
 fun main() {
 
-    val precioProductoA = 50
-    val precioProductoB = 75
+    println("Ingresa el primer precio (decimal): ")
+    val precioProductoA = readLine().toString().toDouble()
 
-    println("Precio del producto A: $precioProductoA")
+    println("Ingresa el primer precio (decimal): ")
+    val precioProductoB = readLine().toString().toDouble()
+
+    println("\nPrecio del producto A: $precioProductoA")
     println("Precio del producto B: $precioProductoB\n")
 
     // Comparación de igualdad
