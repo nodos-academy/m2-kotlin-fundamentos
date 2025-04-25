@@ -1,4 +1,4 @@
-// Programa que simula el saludo institucional dentro de una plataforma educativa multi-institucional.
+// Programa que simula un saludo a un usuario
 
 fun main() {
     val nombre = "@NodosAcademy 🚀"

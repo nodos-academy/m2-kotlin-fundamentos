@@ -7,6 +7,34 @@
 // Quiero: ingresar mi calificación y recibir un mensaje que refleje mi desempeño
 // Para: motivarme y entender cómo voy en mi proceso académico
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 fun main() {
     println("Ingresa tu calificación (0 - 10): ")
     val calif = 10.1
@@ -22,3 +50,13 @@ fun main() {
         else -> println("\nCalificación inválida.")
     }
 }
+
+
+
+
+
+
+
+
+
+
