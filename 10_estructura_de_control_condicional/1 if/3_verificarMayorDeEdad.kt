@@ -3,7 +3,7 @@
 
 fun main() {
     println("Indique su edad: ")
-    val edad = 17.0
+    val edad = readLine().toString().toDouble()
     println("\nLa edad ingresada es: $edad")
 
     if (edad >= 18.0) {

@@ -1,15 +1,16 @@
-// Algoritmo que utiliza un ciclo mientras para mostrar los valores de una variable
-// desde 0 hasta 5 (inclusive). En cada iteración, imprime el valor actual y lo incrementa en 1.
+// Algoritmo que solicita al usuario un número entero como valor inicial
+// Luego, utiliza un ciclo mientras para mostrar los valores de esa variable
+// desde el número ingresado hasta 5 (inclusive). En cada iteración, imprime el valor y lo incrementa en 1
 
-// Requerimiento (historia de usuario):
-// Como: estudiante de programación que está explorando condiciones de parada
-// Quiero: ver cómo funciona un ciclo que incluye el valor límite
-// Para: entender la diferencia entre las condiciones < y <= en estructuras repetitivas
 
 fun main() {
-    var variable = 0
+
+    println("Ingresa un número entero:")
+    var variable = readLine().toString().toInt()
+
     println("Valor inicial de la variable: $variable\n")
 
+    println("Ciclo:")
     while (variable <= 5) {
         println("La variable contiene el dato: $variable")
         variable = variable + 1

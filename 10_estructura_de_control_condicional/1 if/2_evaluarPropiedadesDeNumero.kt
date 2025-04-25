@@ -1,9 +1,9 @@
-//Programa que simula que solicita un número al usuario y evalúa tres condiciones:
+//Programa que solicita un número al usuario y evalúa tres condiciones:
 // si es positivo, si es par, y si es mayor que diez. Imprime un mensaje por cada condición que se cumpla.
 
 fun main() {
     println("Ingrese un número: ")
-    val num = 12.0
+    val num = readLine().toString().toDouble()
     println("\nSu número es: $num")
 
     if (num > 0) {
