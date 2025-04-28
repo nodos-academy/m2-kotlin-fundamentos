@@ -1,5 +1,5 @@
-//Programa que solicita un número al usuario y evalúa tres condiciones:
-// si es positivo, si es par, y si es mayor que diez. Imprime un mensaje por cada condición que se cumpla.
+// Programa que solicita un número al usuario y evalúa tres condiciones si es positivo y si es par
+// también evalúa si es mayor que diez e imprime un mensaje por cada condición que se cumpla
 
 fun main() {
     println("Ingrese un número: ")

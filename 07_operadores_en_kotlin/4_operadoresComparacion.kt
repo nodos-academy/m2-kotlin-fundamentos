@@ -5,7 +5,7 @@ fun main() {
     println("Ingresa el primer precio (decimal): ")
     val precioProductoA = readLine().toString().toDouble()
 
-    println("Ingresa el primer precio (decimal): ")
+    println("Ingresa el segundo precio (decimal): ")
     val precioProductoB = readLine().toString().toDouble()
 
     println("\nPrecio del producto A: $precioProductoA")

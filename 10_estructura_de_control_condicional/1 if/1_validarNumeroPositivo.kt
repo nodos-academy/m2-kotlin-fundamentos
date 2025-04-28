@@ -1,4 +1,4 @@
-//Programa que solicita un número al usuario y evalúa si es positivo. Si lo es, muestra un mensaje indicándolo
+// Programa que solicita un número al usuario y evalúa si es positivo si lo es muestra un mensaje indicándolo
 
 fun main() {
     println("Ingrese un número: ")

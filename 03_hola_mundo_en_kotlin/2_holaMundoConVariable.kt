@@ -1,4 +1,4 @@
-// Programa que simula un saludo a un usuario
+// Programa que imprime un saludo utilizando un nombre almacenado en una variable fija
 
 fun main() {
     val nombre = "@NodosAcademy 🚀"

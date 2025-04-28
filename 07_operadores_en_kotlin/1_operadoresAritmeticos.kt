@@ -6,7 +6,7 @@ fun main() {
     println("Ingresa el primer número decimal: ")
     val a = readLine().toString().toDouble()
 
-    println("Ingresa el egundo número decimal: ")
+    println("Ingresa el segundo número decimal: ")
     val b = readLine().toString().toDouble()
 	
     print("Suma: ")

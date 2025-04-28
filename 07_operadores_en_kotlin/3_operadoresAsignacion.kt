@@ -1,6 +1,6 @@
-// Programa que simula una compra en línea aplicando operaciones de asignación compuesta (+=, -=, /=, %=)
-// para mostrar cómo varía el total según descuentos, productos adicionales, división del pago y cálculo de cambio.
-// Cada operación modifica el valor del total y muestra el resultado en consola.
+// Programa que simula una compra en línea aplicando operaciones de asignación compuesta += -= /= %=
+// para mostrar cómo varía el total según descuentos productos adicionales división del pago y cálculo de resto
+// cada operación modifica el valor del total y muestra el resultado en consola
 
 fun main() {
 

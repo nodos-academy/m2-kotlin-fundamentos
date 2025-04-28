@@ -1,4 +1,4 @@
-// Programa que solicita el año de nacimiento del usuario, calcula su edad actual y muestra el resultado en consola
+// Programa que solicita el año de nacimiento del usuario calcula su edad actual y muestra el resultado en consola
 
 fun main() {
 
