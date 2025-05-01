@@ -2,8 +2,8 @@
 // El jugador elige cara o cruz, se lanza una moneda virtual (aleatoria),
 // y se muestra si adivinó correctamente o no.
 
-// Como: jugador casual
-// Quiero: lanzar una moneda y adivinar el resultado (cara o cruz)
+// Como: jugador
+// Quiero: elegir una opción (cara o cruz) intentando adivinar el resultado y lanzar una moneda virtual
 // Para: divertirme y poner a prueba mi suerte
 
 import kotlin.random.Random
@@ -15,7 +15,7 @@ fun main() {
     println("Escribe tu elección (cara o cruz):\n")
 
     // Leer opción del jugador
-    val eleccionJugador = "cara"
+    val eleccionJugador = readLine().toString()
     println("Tu elección fue: $eleccionJugador")
 
     // Lanzar moneda aleatoria: 0 = cara, 1 = cruz
