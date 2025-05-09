@@ -1,10 +1,6 @@
-// Juego "Cara o Cruz".
-// El jugador elige cara o cruz, se lanza una moneda virtual (aleatoria),
-// y se muestra si adivinó correctamente o no.
-
-// Como: jugador
-// Quiero: elegir una opción (cara o cruz) intentando adivinar el resultado y lanzar una moneda virtual
-// Para: divertirme y poner a prueba mi suerte
+// Algoritmo que simula el juego "Cara o Cruz"
+// El usuario elige entre cara o cruz, se lanza una moneda de forma aleatoria,
+// y se muestra si el usuario adivinó correctamente o no
 
 import kotlin.random.Random
 

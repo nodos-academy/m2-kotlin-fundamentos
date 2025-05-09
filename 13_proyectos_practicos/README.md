@@ -1,4 +1,4 @@
-# 🎲 Proyecto: Juego Cara o Cruz
+# PROYECTO
 
 ## 🧩 Construye sobre lo que ya sabes
 
@@ -9,40 +9,37 @@ Este no es un reto como los anteriores. **Es un proyecto de transición**, una p
 
 ---
 
-## 🔍 Paso 1: Estudia el código base
+## 🔍 Paso 1: Estudia el código base del juego de lanzamiento de moneda
 
-Dentro de esta misma carpeta encontrarás un archivo llamado `cara_o_cruz.kt`.  
-Ese archivo contiene un programa funcional que simula el juego clásico de **cara o cruz**.
+Dentro de esta misma carpeta encontrarás un archivo llamado `1_moneda.kt`.  
+Ese archivo contiene un programa funcional que simula el juego clásico de **moneda: cara o cruz**.
 
 **Léelo. Ejecútalo. Obsérvalo.**  
 Entiende cómo está estructurado, cómo usa `Random`, cómo compara valores, y cómo imprime el resultado.  
-Piensa: ¿qué pasaría si en lugar de dos opciones (cara/cruz), tuviera seis?
+
+Piensa: ¿qué pasaría si en lugar de dos opciones (cara/cruz), tuviera seis opciones?
 
 ---
 
-## 🛠️ Paso 2: Actualiza el juego
+## 🛠️ Paso 2: Transforma el juego en un Lanzamiento de Dado
 
 Tu misión es tomar como referencia el código base y transformarlo en un **simulador de lanzamiento de dado**.
 
 ### 🎯 Tu programa debe:
 
-- Pedir al usuario que presione "Enter" para lanzar un dado
+- Pedir al usuario que **elija un número del 1 al 6**
 - Generar un número aleatorio del 1 al 6 (usando `Random`)
 - Mostrar el resultado en consola con un mensaje como:  
   `"🎲 El dado cayó en: 4"`
-
-No necesitas comparar contra ninguna respuesta ni usar condicionales.  
-Este proyecto es **exploratorio, lúdico y libre**.  
-Aún así, cuida que el código sea claro, funcional y esté bien escrito.
-
----
+- Comparar el número elegido con el resultado y decir si el jugador **ganó o perdió**
+- 
 
 ## 🧠 ¿Por qué hacemos esto?
 
 > Porque aprender a programar no es memorizar, sino **entender, experimentar y crear**.
 
 Este proyecto no solo evalúa lo que sabes, sino **cómo conectas ideas**:  
-Variables, entradas, salidas, ciclos, funciones como `Random`, control del flujo... ¡todo converge aquí!
+Variables, entradas, salidas, condicionales, funciones como `Random`, control del flujo... ¡todo converge aquí!
 
 No se trata de “saber la respuesta”, sino de **crear tu versión de ella**.
 
@@ -71,7 +68,7 @@ Recibirás una propuesta de solución para que compares con la tuya y puedas ref
 ## 💬 ¿Dudas?
 
 ¿No sabes cómo arrancar? ¿Tienes un error y no sabes por qué?  
-**Escríbenos por WhatsApp antes de enviar tu código.** Estamos aquí para ayudarte.
+**Escríbenos por WhatsApp.** Estamos aquí para ayudarte.
 
 ---
 
