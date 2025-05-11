@@ -69,12 +69,20 @@ fun main() {
     println("\n\n¿La lista está vacía? ${personas.none()}")
 
 
-    val miColeccionDeNumeros: List<Int> = listOf(1, 1, 2, 3, 5, 8, 13)
+    val miColeccionDeNumeros: List<Int> = listOf(8, 1, 3, 2, 5, 1, 13)
+    println("\nLista original: $miColeccionDeNumeros")
+
     val res = miColeccionDeNumeros.filter { it >= 4 }
-    println("Números mayores o iguales que 4: $res")
+    println("\nNúmeros mayores o iguales que 4:\n$res")
     //miColeccion.add(9)
 
-    println(miColeccionDeNumeros.reversed())
+    println("\nItems ordenados en reversa: ${miColeccionDeNumeros.reversed()}")
+
+    val ordenados = miColeccionDeNumeros.sortedDescending() //nueva lista
+    println("\nItems ordenados de manera descendente: ${ordenados}")
+
+    println("\nEn reversa: ${ordenados.reversed()}")
+
 }
 
 fun leerLista(l: MutableList<String>) {
