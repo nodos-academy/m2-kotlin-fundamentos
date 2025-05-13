@@ -24,6 +24,8 @@ fun main() {
     println("La variable: 'flotante'")
     println("Almacena el dato: $flotante\n")
 
+
+    //Siguiente clase
     println("TIPO Char")
     println("Permite almacenar un solo carácter")
     println("Ejemplo: Puede usarse para guardar el género de una persona (M / H)")
