@@ -1,5 +1,5 @@
-# 🧠 Módulo 2: Fundamentos de Kotlin
-**Repositorio oficial del Módulo 2 del Entrenamiento Especializado en Programación Android de @Nodos Academy (https://nodosacademy.com/)**
+# 🧠 Módulo 2: Fundamentos de Kotlin  
+**Repositorio oficial del Módulo 2 del Entrenamiento Especializado en Programación Android de [@Nodos Academy](https://nodosacademy.com/)**
 
 ---
 
@@ -15,41 +15,25 @@ Este repositorio está organizado en carpetas que corresponden a cada tema del c
 
 | Carpeta | Tema |
 |--------|------|
-| `02_conceptos_basicos/` | Conceptos Básicos |
 | `03_hola_mundo_en_kotlin/` | Primeros pasos con Kotlin |
 | `04_tipos_de_datos/` | Tipos de datos |
-| `06_estructura_de_control_secuencial/` | Secuencias y orden de ejecución |
-| `07_estructura_de_control_condicional/` | Condicionales (`if`, `when`) |
-| `08_estructura_de_control_repeticion_iteracion/` | Ciclos (`for`, `while`, `do while`) |
-| `09_generalidades_de_las_funciones/` | Funciones y reutilización de código |
-| `10_proyectos_practicos/` | Mini proyectos integradores |
-
-> ⚠️ Las carpetas se irán actualizando progresivamente. Los archivos están numerados para seguir el orden sugerido por el plan de estudios.
+| `06_input/` | Entrada de datos |
+| `07_operadores_en_kotlin/` | Operadores |
+| `09_estructura_de_control_secuencial/` | Secuencia y orden de ejecución |
+| `10_estructura_de_control_condicional/` | Condicionales (`if`, `when`) |
+| `11_estructura_de_control_repeticion_iteracion/` | Ciclos (`for`, `while`, `do while`) |
+| `12_funciones/` | Funciones y reutilización de código |
+| `13_proyectos_practicos/` | Mini proyectos integradores |
+| `14_collections/` | Colecciones |
 
 ---
 
 ## 📚 ¿Cómo usar este repo?
 
 1. Entra a la carpeta del tema que estás estudiando.
-2. Abre los archivos `.kt` en Android Studio o tu editor favorito.
-3. Lee la historia de usuario (próximamente en cada README por carpeta).
+2. Abre los archivos `.kt` en IntelliJ IDEA, Android Studio o tu editor favorito.
+3. Lee la historia de usuario.
 4. Ejecuta y analiza el código, luego intenta hacerlo tú mismo desde cero.
-5. Consulta el archivo maestro (Excel) para ver objetivos y tiempos sugeridos.
-
----
-
-## 🛠️ Progreso del módulo
-
-| Tema | Estado |
-|------|--------|
-| Conceptos básicos | ✅ Listo |
-| Hola mundo en Kotlin | ✅ Listo |
-| Tipos de datos | ✅ Listo |
-| Secuencia | 🟡 En desarrollo |
-| Condicionales | ✅ Listo (5 ejercicios) |
-| Ciclos | 🔲 Pendiente |
-| Funciones | 🔲 Pendiente |
-| Proyectos prácticos | 🔲 Pendiente |
 
 ---
 
